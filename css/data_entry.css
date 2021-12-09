@@ -1,0 +1,82 @@
+.header {
+    background-color: #FDA65D;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header p {
+    margin: 0;
+}
+
+.logout {
+    padding: 10px;
+    background-color: #ca6d21;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+}
+
+.logout:hover {
+    color: rgb(235, 220, 220);
+}
+
+.form_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FDFAF6;
+    height: 91vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 50px 0px;
+    padding: 55px 105px;
+    font-size: 1.2rem;
+    background-color: #f7f4d5;
+    border-radius: 2rem;
+    color: rgb(92, 53, 16);
+    width: 400px;
+}
+
+.form input {
+    margin-bottom: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 1rem;
+}
+
+.btn_submit {
+    align-items: center;
+    padding: 10px;
+    border-radius: 1.5rem;
+    font-size: 1.1rem;
+    color: white;
+    background-color: rgb(240, 187, 98);
+    border: none;
+    margin-left: 120px;
+    cursor: pointer;
+    width: 150px;
+}
+
+.btn_submit:hover {
+    background-color: rgb(170, 91, 26);
+}
+
+.data_entered {
+    color: white;
+    background-color: rgb(65, 225, 73);
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
